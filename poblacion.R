@@ -222,5 +222,6 @@ server <- function(input, output, session) {
   })
 }
 
+
 # mostramos la aplicación en el servidor local
 shinyApp(ui, server)
